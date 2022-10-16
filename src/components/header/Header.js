@@ -5,7 +5,7 @@ const Header = ({ userInfo, connected, connectWallet }) => {
   return (
     <div className={Styles.root}>
       <span className={Styles.logo}>
-        WEB3<span className={Styles.logo2}>FRONTEND</span>
+        DAPP<span className={Styles.logo2}>FRONTEND</span>
       </span>
       <div className="">
         {connected ? (
